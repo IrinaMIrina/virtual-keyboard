@@ -11,6 +11,8 @@
         "sourceType": "module"
     },
     "rules": {
+        "quotes":"off",
+        "appearance":"off"
         
     }
 }
