@@ -60,10 +60,7 @@ const rowFirst = [192, 49, 50, 51, 52, 53, 54, 55, 56, 57, 48, 189, 187, 8];
 function init() {
   let result = '';
   for (let i = 0; i < rowFirst.length; i += 1) {
-    if (i === 13) {
-      result += '<div class = "backspace"></div>';
-    }
-    result += `<div class="key" >${String.fromCharCode(rowFirst[i])}</div>`;
+    result += `<div class="key">${String.fromCharCode(rowFirst[i])}</div>`;
   }
   document.querySelector('.row1').innerHTML = result;
 }
@@ -108,3 +105,11 @@ function initFifthRow() {
   document.querySelector('.row5').innerHTML = result;
 }
 initFifthRow();
+
+const btns = document.querySelectorAll('.key');
+
+btns.forEach((item) => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('active');
+  });
+});
