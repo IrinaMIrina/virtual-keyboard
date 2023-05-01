@@ -15,9 +15,34 @@ textarea.classList.add("title");
 document.querySelector(".wrapper").append(textarea);
 
 const div2 = document.createElement('div');
-div2.className = "body--keyboard keyboard";
+div2.className = "keyboard";
 div2.classList.add("keyboard");
 document.querySelector(".wrapper").append(div2);
+
+const row1 = document.createElement('div');
+row1.className = "row";
+row1.classList.add("row");
+document.querySelector(".keyboard").append(row1);
+
+const row2 = document.createElement('div');
+row2.className = "row";
+row2.classList.add("row");
+document.querySelector(".keyboard").append(row2);
+
+const row3 = document.createElement('div');
+row3.className = "row";
+row3.classList.add("row");
+document.querySelector(".keyboard").append(row3);
+
+const row4 = document.createElement('div');
+row4.className = "row";
+row4.classList.add("row");
+document.querySelector(".keyboard").append(row4);
+
+const row5 = document.createElement('div');
+row5.className = "row";
+row5.classList.add("row");
+document.querySelector(".keyboard").append(row5);
 
 const description = document.createElement('p');
 description.className = "description";
