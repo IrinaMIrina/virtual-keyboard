@@ -9,7 +9,7 @@
 }
 .textarea {
     display: block;
-    width: 700px;
+    width: 650px;
     height: 200px;
     margin: 10px auto 10px;
     padding: 10px;
@@ -17,7 +17,7 @@
     color: #444444
 }
 .keyboard {
-    width: 704px;
+    width: 650px;
     margin: 0 auto;
     padding: 5px;
     padding-left: 0;
@@ -52,4 +52,7 @@
     cursor: pointer;
     user-select: none;
     transition: border-radius 0.3s, background-color 0.3s
+}
+.keyboard .backspace,.keyboard .CapsLock,.keyboard .ShiftLeft {
+    width: 100px;
 }
