@@ -11,12 +11,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "quotes":"off",
         "appearance":"off",
-        "no-console":"off",
-        "import/extensions": "off",
-        "func-names": "off",
-        "prefer-arrow-callback": "off"
-        
+        "import/extensions": "off"  
     }
 }
